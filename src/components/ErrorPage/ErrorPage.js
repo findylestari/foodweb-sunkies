@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BASE_URL, API_KEY } from "../../Environment";
 import "../ErrorPage/ErrorPage.css";
 
 const ErrorPage = () => {

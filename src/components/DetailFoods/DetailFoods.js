@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { BASE_URL, API_KEY } from "../../Environment";
 import "../DetailFoods/Detail.css";
 import { Link } from "react-router-dom";
-import { Foods } from "../Foods/Foods";
+
 
 const DetailFoods = () => {
   const [AllFoods, setAllFoods] = useState("");

@@ -10,15 +10,13 @@ const Form = () => {
   const [classSignUp, setClassSignUp] = useState("");
   const [uploadImage, setUploadImage] = useState("");
   const [password, setPasswordValue] = React.useState("password");
-  const [passwordInput, setPasswordInput] = React.useState("");
+
 
   const handleSignUp = () => {
     setClassSignUp("sign-up-mode");
   };
 
-  const onPasswordChange = (e) => {
-    setPasswordInput(e.target.value);
-  };
+ 
   const toggle = () => {
     if (password === "password") {
       setPasswordValue("text");
